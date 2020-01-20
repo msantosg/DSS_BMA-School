@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>BMA - Sistema Escolar</title>
   <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="{{asset('plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
@@ -151,6 +151,14 @@
                 </a>
               </li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a href="{{route('school')}}" class="nav-link">
+              <i class="nav-icon fas fa-users-cog"></i>
+              <p>
+                Configuración de inicio
+              </p>
+            </a>
           </li>
          <!-- <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">

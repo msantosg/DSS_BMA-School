@@ -28,10 +28,9 @@
                 <thead>
                 <tr>
                   <th>ID</th>
-                  <th>Año periodo</th>
-                  <th>Tipo periodo</th>
-                  <th>comentario</th>
-                  <th>Colegio</th>
+                  <th>Nombre del colegio</th>
+                  <th>Dirección del colegio</th>
+                  <th>Teléfono del colegio</th>
                   <th>Ver</th>
                   <th>Editar</th>
                   <th>Eliminar</th>
@@ -40,64 +39,32 @@
                 <tbody>
                 <tr>
                   <td>1</td>
-                  <td>2019</td>
-                  <td>Bimestral</td>
-                  <td>Periodo bimestral 2019</td>
-                  <td>Colegio example</td>
-                  <td><a class="btn btn-default btn-sm">
-                    <i class="fas fa-eye"></i>
-                  </a></td>
-                  <td><a class="btn btn-success btn-sm text-white">
-                    <i class="fas fa-edit"></i>
-                  </a></td>
-                  <td><a class="btn btn-danger btn-sm text-white">
-                    <i class="fas fa-trash"></i>
-                  </a></td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.0
+                  <td>Colegio ejemplo sabio</td>
+                  <td>Estados del norte al sur</td>
+                  <td>0000-0000</td>
+                  <td>
+                    <a class="btn btn-default btn-sm">
+                        <i class="fas fa-eye"></i>
+                    </a>
                   </td>
-                  <td>Win 95+</td>
-                  <td>5</td>
-                  <td>C</td>
-                  <td><a class="btn btn-default btn-sm">
-                    <i class="fas fa-eye"></i>
-                  </a></td>
-                  <td><a class="btn btn-success btn-sm text-white">
-                    <i class="fas fa-edit"></i>
-                  </a></td>
-                  <td><a class="btn btn-danger btn-sm text-white">
-                    <i class="fas fa-trash"></i>
-                  </a></td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.5
+                  <td>
+                    <a class="btn btn-success btn-sm text-white">
+                        <i class="fas fa-edit"></i>
+                    </a>
                   </td>
-                  <td>Win 95+</td>
-                  <td>5.5</td>
-                  <td>A</td>
-                  <td><a class="btn btn-default btn-sm">
-                    <i class="fas fa-eye"></i>
-                  </a></td>
-                  <td><a class="btn btn-success btn-sm text-white">
-                    <i class="fas fa-edit"></i>
-                  </a></td>
-                  <td><a class="btn btn-danger btn-sm text-white">
-                    <i class="fas fa-trash"></i>
-                  </a></td>
-                </tr>               
+                  <td>
+                    <a class="btn btn-danger btn-sm text-white">
+                        <i class="fas fa-trash"></i>
+                    </a>
+                  </td>
+                </tr>            
                 </tbody>
                 <tfoot>
                 <tr>
                   <th>ID</th>
-                  <th>Año periodo</th>
-                  <th>Tipo periodo</th>
-                  <th>comentario</th>
-                  <th>Colegio</th>
+                  <th>Nombre del colegio</th>
+                  <th>Dirección del colegio</th>
+                  <th>Teléfono del colegio</th>
                   <th>Ver</th>
                   <th>Editar</th>
                   <th>Eliminar</th>
