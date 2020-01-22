@@ -21,6 +21,8 @@ Route::middleware(['auth'])->group(function()
     Route::get('home', 'HomeController@index')->name('home');
 
     Route::get('cycle', 'CycleSchoolController@index')->name('cycle');
+    Route::get('cycle/create', 'CycleSchoolController@create')->name('cycle.create');
+    Route::post('cycle/store', 'CycleSchoolController@store')->name('cycle.store');
 
     Route::get('school', 'SchoolController@index')->name('school');
 }

@@ -23,7 +23,7 @@ class CycleSchoolController extends Controller
      */
     public function create()
     {
-        //
+        return view('cycle.create');
     }
 
     /**

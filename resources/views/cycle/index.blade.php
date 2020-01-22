@@ -19,7 +19,7 @@
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;
-              <a class="btn btn-info btn-sm text-white">
+              <a class="btn btn-info btn-sm text-white" href="{{route('cycle.create')}}">
               <i class="fas fa-plus text-white"></i> Nuevo</a>
             </div>
             <!-- /.card-header -->
@@ -53,43 +53,7 @@
                   <td><a class="btn btn-danger btn-sm text-white">
                     <i class="fas fa-trash"></i>
                   </a></td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.0
-                  </td>
-                  <td>Win 95+</td>
-                  <td>5</td>
-                  <td>C</td>
-                  <td><a class="btn btn-default btn-sm">
-                    <i class="fas fa-eye"></i>
-                  </a></td>
-                  <td><a class="btn btn-success btn-sm text-white">
-                    <i class="fas fa-edit"></i>
-                  </a></td>
-                  <td><a class="btn btn-danger btn-sm text-white">
-                    <i class="fas fa-trash"></i>
-                  </a></td>
-                </tr>
-                <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.5
-                  </td>
-                  <td>Win 95+</td>
-                  <td>5.5</td>
-                  <td>A</td>
-                  <td><a class="btn btn-default btn-sm">
-                    <i class="fas fa-eye"></i>
-                  </a></td>
-                  <td><a class="btn btn-success btn-sm text-white">
-                    <i class="fas fa-edit"></i>
-                  </a></td>
-                  <td><a class="btn btn-danger btn-sm text-white">
-                    <i class="fas fa-trash"></i>
-                  </a></td>
-                </tr>               
+                </tr>                       
                 </tbody>
                 <tfoot>
                 <tr>
